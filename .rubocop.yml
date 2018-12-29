@@ -1,3 +1,10 @@
 nherit_gem:
   rubocop-rails_config:
     - config/rails.yml
+
+AllCops:
+  Exclude:
+    - "node_modules/**/*"
+    - "bin/**/*"
+    - "vendor/**/*"
+    - ".git/**/*"
