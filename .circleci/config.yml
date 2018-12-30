@@ -18,6 +18,9 @@ jobs:
           name: "before_test: setup db"
           command: docker-compose run web rails db:create db:migrate
       - run:
+          name: lint
+          command: docker-compose run web rubocop
+      - run:
           name: test
           command: docker-compose run web rails test
       - run:
