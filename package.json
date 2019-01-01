@@ -14,6 +14,10 @@
     "*.{js,md,yml}": [
       "prettier --write",
       "git add"
+    ],
+    "{app,test}/**/*.rb": [
+      "bundle exec rubocop -a",
+      "git add"
     ]
   },
   "husky": {
