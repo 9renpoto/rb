@@ -6,10 +6,6 @@ before_script:
   - cp config/database.yml.travis config/database.yml
   - bundle exec rails db:create db:schema:load
 script:
-  - bundle exec rspec --format progress \
-    --format RspecJunitFormatter \
-    --out /tmp/rspec.xml \
-    --format progress \
-    spec
+  - bundle exec rspec --format progress --out /tmp/rspec.xml spec
 notifications:
   email: false
