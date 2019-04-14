@@ -4,8 +4,8 @@ services:
 cache: bundler
 before_script:
   - cp config/database.yml.travis config/database.yml
-  - bundle exec rails db:create db:migrate
+  - bundle exec rails db:create db:schema:load
 script:
-  - bundle exec rails test
+  - bundle exec rspec --format progress --out /tmp/rspec.xml spec
 notifications:
   email: false
