@@ -44,6 +44,7 @@ group :development, :test do
   gem "rubocop-rails_config"
   gem "rspec-rails", "~> 3.8"
   gem "factory_bot"
+  gem 'codecov', :require => false, :group => :test
 end
 
 group :development do
