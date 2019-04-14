@@ -7,5 +7,10 @@ before_script:
   - bundle exec rails db:create db:migrate
 script:
   - bundle exec rails test
+  - bundle exec rspec --format progress \
+    --format RspecJunitFormatter \
+    --out /tmp/rspec.xml \
+    --format progress \
+    spec
 notifications:
   email: false
