@@ -11,4 +11,6 @@ class User < ApplicationRecord
          :timeoutable,
          :trackable,
          :omniauthable
+
+  has_many :organizations
 end
