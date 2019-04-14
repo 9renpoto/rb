@@ -10,6 +10,5 @@ jobs:
       - run: sleep 1
       - run: docker-compose run web rails db:create db:schema:load
       - run: docker-compose run web rubocop
-      - run: docker-compose run web rails test
       - run: docker-compose run web rspec spec
       - run: docker-compose down
