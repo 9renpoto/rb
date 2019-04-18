@@ -9,10 +9,10 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@prettier/plugin-ruby@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.11.0.tgz#2fa0c5790f63bad0d8c2654a2e33ed1e0efd0096"
-  integrity sha512-lPilp+Xz5vMKJRx4KJLo9/hN3O1lITtQ4AqNj5jEfhl7Le/15ghl6+g34DEgdLK1BrFN26cRLcBMPQCJPvEenw==
+"@prettier/plugin-ruby@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.12.0.tgz#ab731c98e1051825686d937dabc599b04ecf8ea0"
+  integrity sha512-KaH/fosoQbPsNMdYlu7o7zBt8a1RqGXofl8KTsDNysKnHuQo4UaPoR1q1H1SoBQt0djz+hwQnUD/fxYa20GGVQ==
   dependencies:
     prettier "^1.16.4"
 
