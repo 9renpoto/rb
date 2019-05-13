@@ -5,7 +5,7 @@
     "@prettier/plugin-ruby": "0.12.2",
     "husky": "2.2.0",
     "lint-staged": "8.1.6",
-    "prettier": "1.17.0"
+    "prettier": "1.17.1"
   },
   "husky": {
     "hooks": {
