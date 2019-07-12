@@ -1,5 +1,12 @@
 FROM ruby:2.6.3-alpine
-RUN apk add --no-cache nodejs build-base libxml2-dev libxslt-dev
+RUN apk add -U --no-cache \
+  postgresql-client postgresql-dev \
+  nodejs \
+  build-base \
+  libxml2-dev \
+  libxslt-dev \
+  tzdata
+
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
