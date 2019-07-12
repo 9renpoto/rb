@@ -1,5 +1,5 @@
-FROM ruby:2.6.3
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+FROM ruby:2.6.3-alpine
+RUN apk add --no-cache nodejs build-base libxml2-dev libxslt-dev
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
