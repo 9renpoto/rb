@@ -13,21 +13,15 @@
     }
   },
   "lint-staged": {
-    "ignore": [
-      "db/migrate/*.rb",
-      "db/schema.rb"
+    "*.{js,md,yml}": [
+      "prettier --write",
+      "git add"
     ],
-    "linters": {
-      "*.{js,md,yml}": [
-        "prettier --write",
-        "git add"
-      ],
-      "{app,test,db,lib,spec}/**/*.{rb,rake}": [
-        "prettier --write",
-        "bundle exec rubocop -a",
-        "git add"
-      ]
-    }
+    "{app,test,db,lib,spec}/**/*.{rb,rake}": [
+      "prettier --write",
+      "bundle exec rubocop -a",
+      "git add"
+    ]
   },
   "private": true,
   "scripts": {
