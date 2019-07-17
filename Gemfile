@@ -58,4 +58,8 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 gem "codecov", "~> 0.1.14", :group => :test
 
+gem "rubocop", "= 0.70.0", :groups => [:develop, :test]
+
+gem "rubocop-rails", "= 2.0.1", :groups => [:develop, :test]
+
 gem "rubocop-rails_config", "~> 0.6.2", :groups => [:development, :test]
