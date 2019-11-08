@@ -118,7 +118,7 @@ GEM
     parser (2.6.5.0)
       ast (~> 2.4.0)
     pg (1.1.4)
-    puma (4.2.1)
+    puma (4.3.0)
       nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -245,7 +245,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.3)
   omniauth
   pg (>= 0.18, < 2.0)
-  puma (~> 4.2)
+  puma (~> 4.3)
   rails (~> 6.0.0)
   rspec-rails (~> 3.8)
   rubocop (= 0.70.0)
