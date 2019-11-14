@@ -39,12 +39,12 @@
     "@nodelib/fs.scandir" "2.1.1"
     fastq "^1.6.0"
 
-"@prettier/plugin-ruby@0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.15.1.tgz#5e747d56f6a50e3428088c57570079b3850093ed"
-  integrity sha512-MmWFEwV9IYbz+hgiOC9my0R2F4M1FZ0OgLY16uNwkATE5hjRUt7GhOetvZLYB7hfOrl33o9PMPDpLwFRGnFtxQ==
+"@prettier/plugin-ruby@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.16.0.tgz#386cf4af82e297b0d61ec1e1205b1823811ff908"
+  integrity sha512-3jHEPFL/vK34TPfNByCX0uDiJqHSHvo36LacWCxe7d+yoEUhfOE5oNi2Q1PRej08wKAopU5aApJVPnfz9LoCsw==
   dependencies:
-    prettier "^1.16.4"
+    prettier ">=1.10"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -970,15 +970,10 @@ please-upgrade-node@^3.2.0:
   dependencies:
     semver-compare "^1.0.0"
 
-prettier@1.19.1:
+prettier@1.19.1, prettier@>=1.10:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
-
-prettier@^1.16.4:
-  version "1.16.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
-  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
 
 pump@^3.0.0:
   version "3.0.0"
