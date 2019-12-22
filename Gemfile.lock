@@ -63,7 +63,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.0.1)
-    codecov (0.1.15)
+    codecov (0.1.16)
       json
       simplecov
       url
@@ -238,7 +238,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.13)
   bootsnap (>= 1.1.0)
   byebug
-  codecov (~> 0.1.15)
+  codecov (~> 0.1.16)
   devise
   factory_bot
   jbuilder (~> 2.9)
