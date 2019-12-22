@@ -4,7 +4,12 @@ inherit_gem:
   rubocop-rails_config:
     - config/rails.yml
 
+# @prettier/plugin-ruby first!
+Layout/FirstParameterIndentation:
+  Enabled: false
+
 AllCops:
+  TargetRubyVersion: 2.6
   Exclude:
     - "db/migrate/**/*"
     - "db/schema.rb"
