@@ -5,7 +5,7 @@ inherit_gem:
     - config/rails.yml
 
 # @prettier/plugin-ruby first!
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   Enabled: false
 
 AllCops:
