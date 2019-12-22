@@ -6,4 +6,12 @@ inherit_gem:
 
 AllCops:
   Exclude:
-    - 'Gemfile'
+    - "db/migrate/**/*"
+    - "db/schema.rb"
+    - "vendor/**/*"
+    - "spec/spec_helper.rb"
+    - "spec/rails_helper.rb"
+    - "bin/**/*"
+    - "Gemfile"
+    - "config/routes.rb"
+    - "node_modules/**/*"
