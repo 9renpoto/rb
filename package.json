@@ -3,7 +3,7 @@
   "dependencies": {},
   "devDependencies": {
     "@prettier/plugin-ruby": "0.17.0",
-    "husky": "4.0.8",
+    "husky": "4.0.9",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1"
   },
