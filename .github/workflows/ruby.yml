@@ -17,12 +17,10 @@ jobs:
         with:
           ruby-version: 2.7.x
 
-      - name: Migrate
-        run: |
-          cp config/database.yml.travis config/database.yml
-          bundle exec rails db:create db:schema:load
       - name: Build and test with Rake
         run: |
           bundle install --jobs 4 --retry 3
+          cp config/database.yml.travis config/database.yml
+          bundle exec rails db:create db:schema:load
           bundle exec rubocop
           bundle exec rspec --format progress --out /tmp/rspec.xml spec
