@@ -14,13 +14,11 @@
   },
   "lint-staged": {
     "*.{js,md,yml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "{app,test,db,lib,spec}/**/*.{rb,rake}": [
       "prettier --write",
-      "bundle exec rubocop -a",
-      "git add"
+      "bundle exec rubocop -a"
     ]
   },
   "private": true,
