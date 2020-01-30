@@ -23,9 +23,9 @@ jobs:
           ruby-version: 2.7.x
 
       - name: Install dependent libralies
-        run: sudo apt-get install postgresql-devel
+        run: sudo apt-get install libpq-dev
 
-      - name: Build and test with Rake
+      - name: Build and test with rspec
         run: |
           bundle install --jobs 4 --retry 3
           cp config/database.yml.travis config/database.yml
