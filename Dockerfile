@@ -13,4 +13,5 @@ COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
 RUN bundle update --bundler
 RUN bundle install
+RUN  bundle install --jobs 4 --retry 3
 COPY . /myapp
