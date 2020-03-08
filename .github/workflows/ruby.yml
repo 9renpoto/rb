@@ -32,7 +32,7 @@ jobs:
 
       - name: Build and test with rspec
         run: |
-          gem install bundler
+          bundle update --bundler
           bundle install --jobs 4 --retry 3
           bundle exec rails c -e test
           bundle exec rails db:create db:schema:load
