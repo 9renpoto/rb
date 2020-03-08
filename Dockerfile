@@ -1,4 +1,4 @@
-FROM ruby:2.7.0-alpine
+FROM ruby:2.6-alpine
 RUN apk add -U --no-cache \
   postgresql-client postgresql-dev \
   nodejs \
@@ -11,5 +11,6 @@ RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
+RUN bundle update --bundler
 RUN bundle install
 COPY . /myapp
