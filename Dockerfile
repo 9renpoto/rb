@@ -15,4 +15,3 @@ RUN bundle update --bundler
 RUN bundle install
 RUN  bundle install --jobs 4
 COPY . /myapp
-RUN bundle exec puma
