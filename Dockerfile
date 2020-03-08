@@ -10,7 +10,6 @@ RUN apk add -U --no-cache \
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
-COPY Gemfile.lock /myapp/Gemfile.lock
-RUN bundle update --bundler
 RUN bundle install
+RUN bundle update --bundler
 COPY . /myapp
