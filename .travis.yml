@@ -3,7 +3,6 @@ services:
   - postgresql
 cache: bundler
 before_script:
-  - cp config/database.yml.travis config/database.yml
   - bundle exec rails db:create db:schema:load
 script:
   - bundle exec rubocop
