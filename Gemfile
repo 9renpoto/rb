@@ -43,7 +43,7 @@ group :development, :test do
   gem "factory_bot"
   gem "codecov", "~> 0.1.16", require: false, group: :test
   gem "rubocop", "= 0.70.0"
-  gem "rubocop-rails", "= 2.0.1"
+  gem "rubocop-rails", "= 2.5.2"
   gem "rubocop-rails_config", "~> 0.6.2"
 end
 
