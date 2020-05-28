@@ -42,9 +42,7 @@ group :development, :test do
   gem "rspec-rails", "~> 4.0"
   gem "factory_bot"
   gem "codecov", "~> 0.1.16", require: false, group: :test
-  gem "rubocop", "= 0.70.0"
-  gem "rubocop-rails", "= 2.0.1"
-  gem "rubocop-rails_config", "~> 0.6.2"
+  gem "rubocop-rails_config"
 end
 
 group :development do
@@ -59,3 +57,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+
+gem "rubocop", "~> 0.70.0", :group => :development
+gem "rubocop-rails", "~> 2.0", :group => :development
