@@ -63,10 +63,11 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
-    codecov (0.1.17)
+    codecov (0.1.19)
+      colorize
       json
       simplecov
-      url
+    colorize (0.8.1)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     devise (4.7.2)
@@ -217,7 +218,6 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.6.1)
-    url (0.3.2)
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (4.0.3)
@@ -237,7 +237,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.13)
   bootsnap (>= 1.1.0)
   byebug
-  codecov (~> 0.1.17)
+  codecov (~> 0.1.19)
   devise
   factory_bot
   jbuilder (~> 2.10)
