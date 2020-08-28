@@ -2,7 +2,7 @@
   "name": "myapp",
   "dependencies": {},
   "devDependencies": {
-    "@prettier/plugin-ruby": "0.19.1",
+    "@prettier/plugin-ruby": "0.20.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.13",
     "prettier": "2.1.1"
