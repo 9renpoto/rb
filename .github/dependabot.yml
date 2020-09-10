@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 99
+  reviewers:
+  - 9renpoto
+  labels:
+  - dependencies
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 99
