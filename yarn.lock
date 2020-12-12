@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@prettier/plugin-ruby@0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-0.22.0.tgz#5652169a6faaccd7d409b987cd2b2c8cb02b3bad"
-  integrity sha512-8Cd3BWxK2xMHybIY/aMb+GXA0l52/GrbW4jynVCYMyJoGWFg5yZf6+p2xdU/lmFYjCYJQuVpX9TRZ8yz4kMa9Q==
+"@prettier/plugin-ruby@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-1.0.1.tgz#0d7f0923853c3b0fee88b4f3d092113ba59d4e49"
+  integrity sha512-c895ghM0ZwXpJ4+JgmdpFgWZlYnL827QcJ6766kn/HuNzs6REqKpjneYcpypDOC4bhKjjOHjOj2QSwzFwHURiA==
   dependencies:
     prettier ">=1.10"
 
