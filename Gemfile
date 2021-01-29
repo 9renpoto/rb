@@ -41,7 +41,7 @@ group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "rspec-rails", "~> 4.0"
   gem "factory_bot"
-  gem "codecov", "~> 0.4.0", require: false, group: :test
+  gem "codecov", "~> 0.4.2", require: false, group: :test
   gem "rubocop-rails_config"
 end
 
