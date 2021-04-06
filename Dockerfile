@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine
+FROM ruby:3.0.1-alpine
 RUN apk add -U --no-cache \
   postgresql-client postgresql-dev \
   nodejs \
